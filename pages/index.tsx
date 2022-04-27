@@ -18,18 +18,12 @@ const Home: NextPage = () => {
         </h1>
 
         <div>
-          <Link href={'/file-storage-train'}>
-            <a
-              onClick={() => {
-                console.log('ok');
-              }}
-            >
-              go file storage
-            </a>
+          <Link href={'/file-storage-upload-train'}>
+            <a className={styles.description}>CLICK HERE GO TO FILE STORAGE</a>
           </Link>
         </div>
 
-        <p className={styles.description}>
+        {/* <p className={styles.description}>
           Get started by editing{' '}
           <code className={styles.code}>pages/index.tsx</code>
         </p>
@@ -62,7 +56,7 @@ const Home: NextPage = () => {
               Instantly deploy your Next.js site to a public URL with Vercel.
             </p>
           </a>
-        </div>
+        </div> */}
       </main>
 
       <footer className={styles.footer}>
